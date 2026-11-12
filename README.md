@@ -1,6 +1,6 @@
-# Customer Respond Agent
+# Customer Refund Resolution Pipeline
 
-AI-powered e-commerce refund resolution agent. FastAPI backend + Streamlit frontend. Customer submits grievance; RAG retrieves policy context; LLM extracts structured intent; pure Python eligibility engine decides; simulated refunds gated on eligibility; human escalation queue with approve/reject/adjust + mandatory reason.
+Deterministic e-commerce refund resolution pipeline. FastAPI backend + Streamlit frontend. Customer submits grievance; RAG (ChromaDB + sentence-transformers) retrieves policy context; Groq LLM extracts structured intent (category, amount, reasoning) as JSON; pure Python eligibility engine enforces time windows, amount caps, repeat limits, and auto-approve thresholds. **LLM is advisory only — it never approves or executes refunds.** Human escalation queue for approve/reject/adjust with mandatory reason.
 
 ## Architecture
 
