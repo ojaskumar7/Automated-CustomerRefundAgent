@@ -11,7 +11,7 @@ class Settings(BaseSettings):
 
     # LLM advisor (never approves/executes refunds)
     groq_api_key: str = ""
-    groq_model: str = "llama-3.3-70b-versatile"
+    groq_model: str = "qwen/qwen3.8-27b"
 
     # Refund business rules
     refund_auto_approve_threshold: float = 50.0
