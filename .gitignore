@@ -3,6 +3,8 @@ __pycache__/
 *.pyc
 .env
 data/orders.db
+data/orders.db-shm
+data/orders.db-wal
 data/chroma/
 *.log
 .pytest_cache/

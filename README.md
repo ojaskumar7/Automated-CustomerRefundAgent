@@ -34,10 +34,8 @@ Approve    to Human
 
 ## Screenshots
 
-### Customer View — Submit Grievance
 ![Customer Submit](assets/Screenshot%202026-11-12%20183407.png)
 
-### Admin View — Escalation Queue
 ![Admin Queue](assets/Screenshot%202026-11-12%20183840.png)
 
 ## Quick Start
