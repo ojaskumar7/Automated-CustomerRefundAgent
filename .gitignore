@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+.env
+data/orders.db
+data/chroma/
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+test_rag.py
+test_regex.py

@@ -1,0 +1,8 @@
+Billing Error Policy
+
+Customers are eligible for a refund if they were charged incorrectly.
+This includes: duplicate charges, wrong amount charged, charged for cancelled order, currency conversion errors.
+Must be reported within 60 days of the charge.
+Evidence required: bank statement showing the erroneous charge.
+Refund amount equals the overcharged amount only.
+Full order refund only if the entire charge was erroneous (e.g., cancelled order still charged).
